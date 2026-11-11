@@ -1,0 +1,14 @@
+{
+  "docs": [
+    {
+      "id": "3a8eb008cc33",
+      "name": "hello.txt",
+      "file": "3a8eb008cc33.txt",
+      "size": 18,
+      "uploaded_at": "2026/08/20 02:57",
+      "chunks": [
+        "hello world AI doc"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+PyQt6>=6.5.0
+# 報表每頁頁首／「第 x 頁，共 y 頁」：優先 PyQt6.QtPdf；Python 過新若無 PyQt6-QtPdf 輪子，請裝 pymupdf 作為備援。
+pymupdf>=1.24.0
+pyodbc>=5.0.0
+openpyxl>=3.1.0
+Pillow>=10.0.0
+python-docx>=1.1.0
+# Web 介面
+fastapi>=0.110.0
+uvicorn[standard]>=0.27.0
+pydantic>=2.0.0

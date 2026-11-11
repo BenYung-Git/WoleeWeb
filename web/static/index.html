@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>企業管理系統 — 登入</title>
+  <link rel="stylesheet" href="/static/app.css?v=107">
+</head>
+<body>
+  <div id="app">
+    <div id="login-view" class="view">
+      <div class="login-card">
+        <h1 class="login-title">使用者登入</h1>
+        <hr class="login-divider">
+        <form id="login-form" class="login-form" autocomplete="on">
+          <div class="login-row">
+            <label for="login-user">使用者編號</label>
+            <input type="text" id="login-user" autocomplete="username" required>
+          </div>
+          <div class="login-row">
+            <label for="login-password">密碼</label>
+            <input type="password" id="login-password" autocomplete="current-password" required>
+          </div>
+          <div class="login-row">
+            <label for="login-company">公司編號</label>
+            <select id="login-company" required></select>
+          </div>
+          <div class="login-row login-date-row">
+            <label for="login-date">日期</label>
+            <div class="date-field-wrap login-date-wrap">
+              <input type="text" id="login-date" class="app-date-input" placeholder="yyyy/MM/dd" autocomplete="off" required>
+              <button type="button" id="btn-login-date-pick" class="btn secondary date-pick-btn btn-icon-only" title="選擇日期" aria-label="選擇日期"></button>
+            </div>
+          </div>
+          <p id="login-error" class="error hidden"></p>
+        </form>
+        <div class="login-actions">
+          <button type="button" id="btn-login-ok" class="btn login-btn-ok">確定</button>
+          <button type="button" id="btn-login-cancel" class="btn login-btn-cancel">離開</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="main-view" class="view hidden">
+      <header class="topbar menubar-shell">
+        <nav class="menubar" id="main-menubar" aria-label="功能表列">
+          <div class="menubar-menus" id="menubar-menus"></div>
+          <div class="menubar-corner">
+            <span id="user-info" class="user-info"></span>
+            <button type="button" id="btn-logout" class="btn secondary menubar-corner-btn" title="離開">離開</button>
+            <button type="button" id="btn-ai" class="btn secondary menubar-corner-btn" title="AI 助理" aria-label="AI 助理">AI</button>
+            <button type="button" id="btn-reload" class="btn secondary menubar-corner-btn" title="重新載入">重新載入</button>
+          </div>
+        </nav>
+      </header>
+
+      <div class="layout">
+        <aside class="sidebar">
+          <div class="sidebar-header">
+            <span class="sidebar-title" id="sidebar-title">主選單</span>
+            <button type="button" id="btn-ai-side" class="btn secondary sidebar-ai-btn" title="AI 助理" aria-label="AI 助理">AI</button>
+          </div>
+          <nav id="menu-nav"></nav>
+        </aside>
+        <main class="workspace">
+          <div id="tabs-bar" class="tabs-bar"></div>
+          <div id="tabs-content" class="tabs-content">
+            <div id="empty-state" class="empty-state"><p>請從左側主選單選擇作業</p></div>
+          </div>
+        </main>
+      </div>
+    </div>
+  </div>
+
+  <script src="/static/ui-icons.js?v=30"></script>
+  <script src="/static/app.js?v=175"></script>
+</body>
+</html>

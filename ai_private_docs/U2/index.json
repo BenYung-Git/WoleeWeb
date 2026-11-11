@@ -1,0 +1,34 @@
+{
+  "docs": [
+    {
+      "id": "a230236e7bdf",
+      "name": "t.xlsx",
+      "file": "a230236e7bdf.xlsx",
+      "size": 4832,
+      "uploaded_at": "2026/08/20 02:59",
+      "chunks": [
+        "# Sheet\ntest"
+      ]
+    },
+    {
+      "id": "76b44e8c67fb",
+      "name": "t.docx",
+      "file": "76b44e8c67fb.docx",
+      "size": 35277,
+      "uploaded_at": "2026/08/20 02:59",
+      "chunks": [
+        "hello docx"
+      ]
+    },
+    {
+      "id": "84242b94f336",
+      "name": "old.xls",
+      "file": "84242b94f336.xls",
+      "size": 12,
+      "uploaded_at": "2026/08/20 02:59",
+      "chunks": [
+        "（無法讀取試算表：File is not a zip file）"
+      ]
+    }
+  ]
+}

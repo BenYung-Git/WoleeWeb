@@ -1,0 +1,50 @@
+{
+  "docs": [
+    {
+      "id": "08725354334b",
+      "name": "a.txt",
+      "file": "08725354334b.txt",
+      "size": 8,
+      "uploaded_at": "2026/08/20 02:59",
+      "chunks": [
+        "hello ai"
+      ]
+    },
+    {
+      "id": "cf8a26fc27e7",
+      "name": "a.pdf",
+      "file": "cf8a26fc27e7.pdf",
+      "size": 13,
+      "uploaded_at": "2026/08/20 02:59",
+      "chunks": [
+        "（無法讀取 PDF：Failed to open stream）"
+      ]
+    },
+    {
+      "id": "04a918097f1f",
+      "name": "說明文件.txt",
+      "file": "04a918097f1f.txt",
+      "size": 18,
+      "uploaded_at": "2026/08/20 02:59",
+      "chunks": [
+        "中文內容測試"
+      ]
+    },
+    {
+      "id": null,
+      "name": "bad",
+      "size": "x",
+      "uploaded_at": 123
+    },
+    {
+      "id": "724651db8605",
+      "name": "ok.txt",
+      "file": "724651db8605.txt",
+      "size": 16,
+      "uploaded_at": "2026/08/20 03:01",
+      "chunks": [
+        "upload after fix"
+      ]
+    }
+  ]
+}

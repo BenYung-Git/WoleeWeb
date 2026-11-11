@@ -1,0 +1,16 @@
+{
+  "mappings": [
+    {
+      "from": "Q:\\docBiz",
+      "to": "/srv/docBiz"
+    },
+    {
+      "from": "S:\\docBiz",
+      "to": "/srv/docBiz"
+    },
+    {
+      "from": "S:\\Share",
+      "to": "/srv/samba/public/Share"
+    }
+  ]
+}

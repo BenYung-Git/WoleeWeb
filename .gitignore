@@ -1,0 +1,30 @@
+# Python / venv（不納入版控；資料庫依首次發布需求納入）
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Access 鎖定檔（非資料庫本體）
+*.ldb
+*.LDB
+
+# 本機環境變數（若有）
+.env
+.env.*
+!.env.example
+
+# AI API Key（勿提交；請用程式內「AI 設定」或環境變數）
+ai_private_docs/ai_settings.json
+ai_private_docs/*/ai_settings.json
